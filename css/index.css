@@ -7,6 +7,7 @@
   --navy: #17050F;
   --blue: #082840;
   --white: #fff;
+  --blood: #AA151B;
 }
 * {
   box-sizing: border-box;
@@ -15,9 +16,13 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: system-ui, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: var(--darkgray);
   background-color: var(--white);
+  font-size: 16px;
+}
+h1,h2,h3,h4,h5,.nav-item a {
+  font-family: 'Sen', sans-serif;
 }
 p:last-child {
   margin-bottom: 0;
@@ -45,6 +50,7 @@ main :first-child {
 }
 header {
   border-bottom: 1px dashed var(--lightgray);
+  margin-bottom: 2rem;
 }
 header:after {
   content: "";
@@ -132,13 +138,18 @@ pre {
 
 /* Header */
 .home {
+  font-size: 1.2rem;
   padding: 0 1rem;
   float: left;
   margin: 1rem 0; /* 16px /16 */
-  font-size: 1em; /* 16px /16 */
 }
 .home :link:not(:hover) {
+  color: var(--blood);
   text-decoration: none;
+}
+
+h1 {
+  color: var(--blood);
 }
 
 /* Nav */
@@ -239,4 +250,9 @@ a[href].direct-link:focus:visited,
 :hover > a[href].direct-link,
 :hover > a[href].direct-link:visited {
   color: #aaa;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 80vw;
 }

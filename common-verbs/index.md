@@ -7,7 +7,7 @@ eleventyNavigation:
   order: 2
 ---
 
-### -ar
+## -ar verbs
 | Spanish     | English      |
 | ----------- | ------------ |
 | bailar  | to dance         |
@@ -42,7 +42,7 @@ eleventyNavigation:
 | viajar  | to travel         |
 | visitar  | to visit         |
 
-### -er
+## -er verbs
 | Spanish     | English      |
 | ----------- | ------------ |
 | aprender  | to learn         |
@@ -55,7 +55,7 @@ eleventyNavigation:
 | romper  | to break         |
 | vender  | to sell |
 
-### -ir
+## -ir verbs
 
 | Spanish     | English      |
 | ----------- | ------------ |
