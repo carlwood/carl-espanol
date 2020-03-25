@@ -52,11 +52,27 @@ header:after {
   clear: both;
 }
 table {
+  border: none;
+  border-collapse: inherit;
+  border-spacing: 0;
+  border-color: inherit;
+  vertical-align: inherit;
   margin: 1em 0;
 }
 table td,
 table th {
-  padding-right: 1em;
+  margin: 0;
+  padding: 10px;
+  text-align: left;
+  border-bottom: solid 1px #ccc;
+}
+
+table th {
+  border-bottom: solid 2px #000;
+}
+
+table tbody tr:nth-child(odd) {
+  background: #f2f2f2;
 }
 
 pre,
