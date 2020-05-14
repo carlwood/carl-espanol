@@ -3,7 +3,7 @@ title: La comida - food
 description:
 date: 2020-03-26
 tags:
-	- food,drink
+	- food, drink
 layout: layouts/post.njk
 ---
 ## General

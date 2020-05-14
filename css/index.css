@@ -78,10 +78,16 @@ table th {
   padding: 10px;
   text-align: left;
   border-bottom: solid 1px #ccc;
+  width: 50%;
 }
 
 table th {
   border-bottom: solid 2px #000;
+}
+
+table th:not(:last-child),
+table td:not(:last-child) {
+  border-right: solid 2px #ccc;
 }
 
 table tbody tr:nth-child(odd) {
