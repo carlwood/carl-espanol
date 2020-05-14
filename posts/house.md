@@ -1,5 +1,5 @@
 ---
-title: La casa - the house
+title: La casa (the house)
 description:
 date: 2020-05-14
 tags:

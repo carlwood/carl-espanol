@@ -1,9 +1,8 @@
 ---
-title: Las bebidas - drinks
+title: Las bebidas (drinks)
 description:
 date: 2020-03-25
-tags:
-	- food, drink
+tags: ['food', 'drink']
 layout: layouts/post.njk
 ---
 ## Hot drinks 

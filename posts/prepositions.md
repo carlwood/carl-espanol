@@ -4,8 +4,6 @@ description:
 date: 2020-05-14
 layout: layouts/post.njk
 ---
-## Rooms
-
 | Spanish     | English      |
 | ----------- | ------------ |
 | a la izquierda de | to the left of |
