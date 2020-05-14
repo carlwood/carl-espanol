@@ -7,5 +7,5 @@ eleventyNavigation:
   order: 9
 ---
 
-* https://www.spanishdict.com/
-* https://parentingpatch.com/tag/spanish/
+* [SpanishDict](https://www.spanishdict.com/)
+* [ParentingPatch – Spanish](https://parentingpatch.com/tag/spanish/)

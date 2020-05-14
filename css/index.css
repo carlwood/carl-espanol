@@ -149,6 +149,7 @@ pre {
 }
 
 h1 {
+  margin-bottom: 2.5rem;
   color: var(--blood);
 }
 
@@ -158,7 +159,18 @@ h1 {
   list-style: none;
   float: left;
   margin-left: 1em;
+  width: 100%;
 }
+
+@media (min-width: 960px) {
+  .nav {
+    float: right;
+    width: auto;
+  }
+}
+
+
+
 .nav-item {
   display: inline-block;
   margin-right: 1em;
@@ -254,5 +266,23 @@ a[href].direct-link:focus:visited,
 
 .container {
   margin: 0 auto;
-  max-width: 80vw;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 80vw;
+  }
+}
+
+/* GRID */
+
+.grid {
+  display: grid;
+  grid-gap: 1rem;
+}
+
+@media (min-width: 768px) {
+  .grid--sm-3-cols {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
