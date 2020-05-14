@@ -64,6 +64,7 @@ table {
   border-color: inherit;
   vertical-align: inherit;
   margin: 1em 0;
+  width: 100%;
 }
 table td,
 table th {
@@ -282,6 +283,9 @@ a[href].direct-link:focus:visited,
 }
 
 @media (min-width: 768px) {
+  .grid {
+    grid-gap: 1.5rem;
+  }
   .grid--sm-3-cols {
     grid-template-columns: 1fr 1fr 1fr;
   }
