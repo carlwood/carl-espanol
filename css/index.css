@@ -196,33 +196,20 @@ h1 {
 .postlist {
   list-style: none;
   padding: 0;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 1rem;
-}
-
-@media (min-width: 768px) {
-  .postlist {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-}
-
-@media (min-width: 992px) {
-  .postlist {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
 }
 
 .postlist-item {
-  background: #eee;
-  border-radius: 4px;
-  background: #eee;
-  padding: 1rem;
+  padding: 1rem 0;
   position: relative;
+  border-bottom: solid 1px #e4e4e4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.2s ease-in-out;
 }
 
 .postlist-item:hover {
-  box-shadow: 0 0 2px rgba(0,0,0,0.6);
+  border-color: #bbb;
 }
 
 .postlist-item:before {
@@ -241,7 +228,6 @@ h1 {
 }
 .postlist-link {
   display: block;
-  margin-bottom: 1rem;
   text-decoration: none;
 }
 .postlist-link:before {
@@ -258,9 +244,14 @@ h1 {
 .postlist-item-active .postlist-link {
   font-weight: bold;
 }
-.tmpl-home .postlist-link {
-  font-size: 1.1875em; /* 19px /16 */
-  font-weight: 700;
+.postlist-link {
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  .postlist-link {
+    font-size: 1.1rem;
+  }
 }
 
 
