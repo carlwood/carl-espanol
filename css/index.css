@@ -205,7 +205,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  transition: 0.2s ease-in-out;
+  transition: border 0.2s ease-in-out;
 }
 
 .postlist-item:hover {
