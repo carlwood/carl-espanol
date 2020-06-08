@@ -15,7 +15,7 @@ layout: layouts/post.njk
 | tanto(a)  | so much      |
 | tantos(as)  | so many      |
 | algún(a)  | some         | <b>Algún</b> dia <br>– some day |
-| algunos(as)  | some     | Tengo <b>algunos</b> periódicos en español. <br>– I have some Spanish newspapers |
+| algunos(as)  | any/some     | Tengo <b>algunos</b> periódicos en español. <br>– I have some Spanish newspapers |
 | varios(as)  | several         |
 | poco(a)  | little      |
 | pocos(as)  | few      |
