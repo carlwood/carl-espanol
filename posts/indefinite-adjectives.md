@@ -21,7 +21,7 @@ layout: layouts/post.njk
 | pocos(as)  | few      |
 | ningún(a)  | not any         |
 | cada  | each         |
-| bastante(s)  | enough         |
+| bastante(s)  | enough/quite         |
 | demasiado(a)  | too much         |
 | demasiados(as)  | too many         |
 | otro(a)  | another        |
