@@ -22,3 +22,4 @@ layout: layouts/post.njk
 | ciclismo | cycling |
 | baloncesto | basketball |
 | pesca | fishing |
+| remo | rowing |
